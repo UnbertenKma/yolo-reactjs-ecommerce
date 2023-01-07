@@ -15,7 +15,7 @@ const Routes = () => {
             <Route path='/catalog/:slug' component={Product}/>
             <Route path='/' component={Catalog}/>
             <Route path='/cart' component={Cart}/>
-            {/* <Route path='/guide' component={Guide} /> */}
+            <Route path='/guide' component={Guide} />
         </Switch>
     )
 }

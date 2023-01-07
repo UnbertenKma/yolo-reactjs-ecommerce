@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react";
+import React, { useRef } from "react";
 import { Link, useLocation } from "react-router-dom";
 
 const mainNav = [
@@ -8,8 +8,12 @@ const mainNav = [
   },
   {
     display: "Hướng dẫn mua sim",
-    path: "/guide",
+    path: "/catalog",
   },
+  // {
+  //     display: "Phụ kiện",
+  //     path: "/accessories"
+  // },
   {
     display: "Liên hệ",
     path: "/contact",
@@ -22,21 +26,21 @@ const Header = () => {
 
   const headerRef = useRef(null);
 
-  useEffect(() => {
-    window.addEventListener("scroll", () => {
-      if (
-        document.body.scrollTop > 80 ||
-        document.documentElement.scrollTop > 80
-      ) {
-        headerRef.current.classList.add("shrink");
-      } else {
-        headerRef.current.classList.remove("shrink");
-      }
-    });
-    return () => {
-      window.removeEventListener("scroll");
-    };
-  }, []);
+  // useEffect(() => {
+  //   window.addEventListener("scroll", () => {
+  //     if (
+  //       document.body.scrollTop > 80 ||
+  //       document.documentElement.scrollTop > 80
+  //     ) {
+  //       headerRef.current.classList.add("shrink");
+  //     } else {
+  //       headerRef.current.classList.remove("shrink");
+  //     }
+  //   });
+  //   return () => {
+  //     window.removeEventListener("scroll");
+  //   };
+  // }, []);
 
   const menuLeft = useRef(null);
 
@@ -45,6 +49,7 @@ const Header = () => {
   return (
     <>
       <div className="header" ref={headerRef}>
+
         <div className="header__logo">
           <Link to="/">
             {/* <img src={logo} style={{ width: "90px" }} alt="" /> */}
@@ -76,17 +81,17 @@ const Header = () => {
               ))}
             </div>
             <div className="header__menu__right">
-              {/* <div className="header__menu__item header__menu__right__item">
+              <div className="header__menu__item header__menu__right__item">
                 <i className="bx bx-search"></i>
-              </div> */}
+              </div>
               <div className="header__menu__item header__menu__right__item">
                 <Link to="/cart">
                   <i className="bx bx-shopping-bag"></i>
                 </Link>
               </div>
-              {/* <div className="header__menu__item header__menu__right__item">
+              <div className="header__menu__item header__menu__right__item">
                 <i className="bx bx-user"></i>
-              </div> */}
+              </div>
             </div>
           </div>
         </div>

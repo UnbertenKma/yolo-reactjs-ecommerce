@@ -333,7 +333,6 @@ const products = [
   {
     title: "0362.19.29.39",
     price: "13000000",
-    categorySlug: "Trên 6tr",
   },
 
   // 18 products

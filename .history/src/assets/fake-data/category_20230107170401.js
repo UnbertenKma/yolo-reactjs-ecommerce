@@ -5,11 +5,11 @@ const category = [
     },
     {
         display: "3- 6tr",
-        categorySlug: "3- 6tr"
+        categorySlug: "ao-somi"
     },
     {
         display: "Trên 6tr",
-        categorySlug: "Trên 6tr"
+        categorySlug: "quan-jean"
     }
 ]
 

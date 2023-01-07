@@ -10,6 +10,10 @@ const mainNav = [
     display: "Hướng dẫn mua sim",
     path: "/guide",
   },
+  // {
+  //     display: "Phụ kiện",
+  //     path: "/accessories"
+  // },
   {
     display: "Liên hệ",
     path: "/contact",
@@ -45,6 +49,7 @@ const Header = () => {
   return (
     <>
       <div className="header" ref={headerRef}>
+
         <div className="header__logo">
           <Link to="/">
             {/* <img src={logo} style={{ width: "90px" }} alt="" /> */}

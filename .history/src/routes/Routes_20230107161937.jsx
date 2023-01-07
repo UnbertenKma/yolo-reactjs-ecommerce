@@ -6,7 +6,6 @@ import { Route, Switch } from 'react-router-dom'
 import Catalog from '../pages/Catalog'
 import Cart from '../pages/Cart'
 import Product from '../pages/Product'
-import Guide from '../pages/Guide'
 
 const Routes = () => {
     return (
@@ -15,7 +14,6 @@ const Routes = () => {
             <Route path='/catalog/:slug' component={Product}/>
             <Route path='/' component={Catalog}/>
             <Route path='/cart' component={Cart}/>
-            {/* <Route path='/guide' component={Guide} /> */}
         </Switch>
     )
 }

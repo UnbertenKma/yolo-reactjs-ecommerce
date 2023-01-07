@@ -38,133 +38,62 @@ const products = [
   {
     title: "032.92.33339",
     price: "3000000",
-    image01: product_01_image_01,
-    // image02: product_01_image_02,
-    categorySlug: "0- 3tr",
-    colors: ["white", "red", "orange"],
-    slug: "ao-thun-dinosaur-01",
-    size: ["s", "m", "l", "xl"],
-    description: "Sim tam hoa khẳng định đẳng cấp của gia chủ",
   },
   {
     title: "033.62.33339",
     price: "3000000",
-    categorySlug: "0- 3tr",
   },
   {
     title: "035.26.33339",
     price: "3000000",
-    categorySlug: "0- 3tr",
   },
   {
     title: "036.62.33339",
     price: "3000000",
-    categorySlug: "0- 3tr",
   },
   {
     title: "0333.05.15.25",
     price: "3000000",
-    categorySlug: "0- 3tr",
   },
   {
     title: "0345.133338",
     price: "3000000",
-    categorySlug: "0- 3tr",
   },
   {
-    title: "03.567.33336",
+    title: "",
     price: "3000000",
-    categorySlug: "0- 3tr",
   },
   {
-    title: "0386833336",
+    title: "",
     price: "3000000",
-    categorySlug: "0- 3tr",
   },
   {
-    title: "032.92.33339",
+    title: "",
     price: "3000000",
-    categorySlug: "0- 3tr",
   },
   {
-    title: "0345.833336",
+    title: "",
     price: "3000000",
-    categorySlug: "0- 3tr",
   },
   {
-    title: "038.62.33339",
+    title: "",
     price: "3000000",
-    categorySlug: "0- 3tr",
   },
   {
     title: "0345.95.98.98",
     price: "3000000",
-    categorySlug: "0- 3tr",
     image01: product_01_image_01,
     // image02: product_01_image_02,
     categorySlug: "0- 1tr",
     colors: ["white", "red", "orange"],
     slug: "ao-thun-dinosaur-01",
     size: ["s", "m", "l", "xl"],
-    description: "Sim tam hoa khẳng định đẳng cấp của gia chủ",
-  },
-  {
-    title: "0368.87.78.78",
-    price: "3500000",
-    categorySlug: "3- 6tr",
-    categorySlug: "3- 6tr",
-  },
-  {
-    title: "039.7177778",
-    price: "3500000",
-    categorySlug: "3- 6tr",
-  },
-  {
-    title: "033333.0246",
-    price: "3500000",
-  },
-
-  {
-    title: "0355.73.83.93",
-    price: "3500000",
-    categorySlug: "3- 6tr",
-  },
-
-  {
-    title: "0356.83.86.89",
-    price: "3500000",
-    categorySlug: "3- 6tr",
-  },
-  {
-    title: "03.567.33338",
-    price: "3500000",
-    categorySlug: "3- 6tr",
-  },
-  {
-    title: "0363.09.19.29",
-    price: "3500000",
-    categorySlug: "3- 6tr",
-  },
-  {
-    title: "03638.08386",
-    price: "3500000",
-    categorySlug: "3- 6tr",
-  },
-  {
-    title: "0368.76.86.96",
-    price: "3500000",
-    categorySlug: "3- 6tr",
-  },
-  {
-    title: "0369633338 ",
-    price: "3500000",
-    categorySlug: "3- 6tr",
+    description:
+      "Sim tam hoa khẳng định đẳng cấp của gia chủ",
   },
   {
     title: "0868.34.56.56",
     price: "5000000",
-    categorySlug: "3- 6tr",
-
     image01: product_02_image_01,
     image02: product_02_image_02,
     categorySlug: "0- 1tr",
@@ -189,8 +118,6 @@ const products = [
   {
     title: "0345.99.36.36",
     price: "5000000",
-    categorySlug: "3- 6tr",
-
     image01: product_04_image_01,
     image02: product_04_image_02,
     categorySlug: "ao-thun",
@@ -203,8 +130,6 @@ const products = [
   {
     title: "0345.93.83.83",
     price: "5000000",
-    categorySlug: "3- 6tr",
-
     image01: product_05_image_01,
     image02: product_05_image_02,
     categorySlug: "ao-thun",
@@ -229,8 +154,6 @@ const products = [
   {
     title: "0345.68.28.28",
     price: "5000000",
-    categorySlug: "3- 6tr",
-
     image01: product_05_image_01,
     image02: product_05_image_02,
     categorySlug: "ao-thun",
@@ -244,96 +167,82 @@ const products = [
   {
     title: "033.56.7777.8",
     price: "5000000",
-    categorySlug: "3- 6tr",
   },
   {
     title: "038.66.7777.8",
     price: "5000000",
-    categorySlug: "3- 6tr",
   },
   {
     title: "036.79.7777.8",
     price: "5000000",
-    categorySlug: "3- 6tr",
   },
   {
     title: "039.56.7777.8",
     price: "5000000",
-    categorySlug: "3- 6tr",
   },
   {
     title: "032.88.3333.9",
     price: "5000000",
-    categorySlug: "3- 6tr",
   },
   {
     title: "033.933.36.39",
     price: "5000000",
-    categorySlug: "3- 6tr",
   },
   {
     title: "033.234.567.0",
     price: "5000000",
-    categorySlug: "3- 6tr",
   },
   {
     title: "0385.78.88.98",
     price: "5000000",
-    categorySlug: "3- 6tr",
-  },
-  {
-    title: "0376.17.18.19",
-    price: "5000000",
-    categorySlug: "3- 6tr",
-  },
-  {
-    title: "0392.14.15.16",
-    price: "5000000",
-    categorySlug: "3- 6tr",
-  },
-  {
-    title: "0397.48.58.68",
-    price: "5000000",
-    categorySlug: "3- 6tr",
-  },
-  {
-    title: "0399.60.61.62",
-    price: "5000000",
-    categorySlug: "3- 6tr",
-  },
-  {
-    title: "0862862626",
-    price: "5000000",
-    categorySlug: "3- 6tr",
-  },
-  {
-    title: "0862862828",
-    price: "5000000",
-    categorySlug: "3- 6tr",
-  },
-  {
-    title: "0345.22.82.82",
-    price: "5000000",
-    categorySlug: "3- 6tr",
-  },
-  {
-    title: "0862866262",
-    price: "5000000",
-    categorySlug: "3- 6tr",
-  },
-  {
-    title: "0345.58.78.78",
-    price: "5000000",
-  },
-  {
-    title: "0393833336",
-    price: "5000000",
-    categorySlug: "3- 6tr",
   },
   {
     title: "0362.19.29.39",
     price: "13000000",
-    categorySlug: "Trên 6tr",
+  },
+  {
+    title: "",
+    price: "999999",
+  },
+  {
+    title: "",
+    price: "999999",
+  },
+  {
+    title: "",
+    price: "999999",
+  },
+  {
+    title: "",
+    price: "999999",
+  },
+  {
+    title: "",
+    price: "999999",
+  },
+  {
+    title: "",
+    price: "999999",
+  },
+  {
+    title: "",
+    price: "999999",
+  },
+  {
+    title: "",
+    price: "999999",
+  },
+  {
+    title: "",
+    price: "999999",
+  },
+  {
+    title: "",
+    price: "999999",
+  },
+  
+  {
+
   },
 
   // 18 products
