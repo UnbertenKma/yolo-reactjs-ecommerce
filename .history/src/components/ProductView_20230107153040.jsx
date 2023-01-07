@@ -31,7 +31,7 @@ const ProductView = props => {
 
     const [previewImg, setPreviewImg] = useState(product.image01)
 
-    const [descriptionExpand, setDescriptionExpand] = useState(false)
+    // const [descriptionExpand, setDescriptionExpand] = useState(false)
 
     const [color, setColor] = useState(undefined)
 
@@ -117,21 +117,19 @@ const ProductView = props => {
                 <div className="product__images__main">
                     <img src={previewImg} alt="" />
                 </div>
-
                 <div className={`product-description ${descriptionExpand ? 'expand' : ''}`}>
                     <div className="product-description__title">
                         Chi tiết sản phẩm
                     </div>
                     <div className="product-description__content" dangerouslySetInnerHTML={{__html: product.description}}></div>
                     <div className="product-description__toggle">
-                        <Button size="sm" onClick={() => setDescriptionExpand(!descriptionExpand)}>
+                        {/* <Button size="sm" onClick={() => setDescriptionExpand(!descriptionExpand)}>
                             {
                                 descriptionExpand ? 'Thu gọn' : 'Xem thêm'
                             }
-                        </Button>
+                        </Button> */}
                     </div>
                 </div>
-
             </div>
             <div className="product__info">
                 <h1 className="product__info__title">{product.title}</h1>
