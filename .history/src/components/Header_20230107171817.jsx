@@ -6,10 +6,10 @@ const mainNav = [
     display: "Trang chủ",
     path: "/",
   },
-  // {
-  //   display: "Hướng dẫn mua sim",
-  //   path: "/",
-  // },
+  {
+    display: "Hướng dẫn mua sim",
+    path: "/",
+  },
   {
     display: "Liên hệ",
     path: "/contact",

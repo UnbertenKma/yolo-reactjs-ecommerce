@@ -202,6 +202,7 @@ const products = [
 
     image01: product_05_image_01,
     image02: product_05_image_02,
+    categorySlug: "ao-thun",
     colors: ["white", "pink"],
     slug: "ao-thun-polo-05",
     size: ["xxl"],
@@ -227,6 +228,7 @@ const products = [
 
     image01: product_05_image_01,
     image02: product_05_image_02,
+    categorySlug: "ao-thun",
     colors: ["white", "pink"],
     slug: "ao-thun-polo-05",
     size: ["xxl"],

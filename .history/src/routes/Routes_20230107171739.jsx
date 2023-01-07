@@ -6,6 +6,7 @@ import { Route, Switch } from "react-router-dom";
 import Catalog from "../pages/Catalog";
 import Cart from "../pages/Cart";
 import Product from "../pages/Product";
+import Guide from "../pages/Guide";
 
 const Routes = () => {
   return (
