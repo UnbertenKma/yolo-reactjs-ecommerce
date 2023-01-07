@@ -1,0 +1,110 @@
+.product-card {
+  border-bottom: 1px solid #ccc;
+  &__price {
+    display: flex;
+
+    .product-card__name {
+        
+    }
+
+    .product-card__name_total {
+        margin-left: 10px;
+        margin-top: 6px;
+        font-size: 14px;
+    }
+
+    .product-card__price__old {
+        margin-top: 8px;
+    }
+
+    .product-card__price__title {
+        color: red;
+        margin-left: 10px;
+        margin-top: 8px;
+    }
+  }
+}
+
+// .product-card {
+//   text-align: center;
+//   border: 1px solid #ccc;
+
+//   &__image {
+//     padding-top: 100%;
+//     position: relative;
+//     overflow: hidden;
+//     margin-bottom: 30px;
+
+//     img {
+//       position: absolute;
+//       top: 0;
+//       left: 50%;
+//       transform: translateX(-50%);
+//       height: 100%;
+//       object-fit: contain;
+
+//       &:nth-child(1) {
+//         transform: translateX(-50%) scale(1);
+//         transition: transform 0.5s ease;
+//       }
+
+//       &:nth-child(2) {
+//         transform: translateX(-50%) scale(0);
+//       }
+//     }
+
+//     // &:hover img {
+//     //     &:nth-child(1) {
+//     //         transform: translateX(-50%) scale(0);
+//     //     }
+
+//     //     &:nth-child(2) {
+//     //         transform: translateX(-50%) scale(1);
+//     //         transition: transform 0.5s ease;
+//     //     }
+//     // }
+//   }
+
+//   &__name {
+//     color: #000;
+//     font-size: 1.25rem;
+//     font-weight: 700;
+//     font-size: 18px;
+//     color: #0d2ce3;
+//   }
+
+//   &__price {
+//     color: $txt-main-color;
+//     font-size: 1.6rem;
+//     font-weight: 700;
+//     margin-bottom: 10px;
+//     color: #000;
+//     margin-left: 19px;
+//     margin-top: 17px;
+//     margin-right: 14px;
+
+//     display: flex;
+
+//     .product-card__name {
+//       margin-right: 10px;
+//     }
+
+//     &__old {
+//       color: $txt-second-color;
+//       margin-left: 20px;
+//       font-weight: 300;
+//       font-size: 14px;
+//       margin-right: 2px;
+//     }
+
+//     &__title {
+//       color: red;
+//     }
+//   }
+
+//   &__btn {
+//     @include tablet {
+//       display: none;
+//     }
+//   }
+// }
