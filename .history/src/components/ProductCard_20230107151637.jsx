@@ -3,7 +3,9 @@ import React from "react";
 
 import { Link } from "react-router-dom";
 
-// import { useDispatch } from "react-redux";
+import { useDispatch } from "react-redux";
+
+
 
 import numberWithCommas from "../utils/numberWithCommas";
 
@@ -49,7 +51,7 @@ ProductCard.propTypes = {
   // img02: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired,
   price: PropTypes.number.isRequired,
-  // slug: PropTypes.string.isRequired,
+  slug: PropTypes.string.isRequired,
 };
 
 export default ProductCard;

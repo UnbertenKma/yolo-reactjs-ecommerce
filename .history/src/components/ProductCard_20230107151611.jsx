@@ -3,12 +3,14 @@ import React from "react";
 
 import { Link } from "react-router-dom";
 
-// import { useDispatch } from "react-redux";
+import { useDispatch } from "react-redux";
+
+
 
 import numberWithCommas from "../utils/numberWithCommas";
 
 const ProductCard = (props) => {
-  // const dispatch = useDispatch();
+  const dispatch = useDispatch();
 
   return (
     <div className="product-card">
@@ -30,7 +32,7 @@ const ProductCard = (props) => {
           <span className="product-card__price__title">viettel</span>
         </div>
       </Link>
-      {/* <div className="product-card__btn">
+      <div className="product-card__btn">
         <Button
           size="sm"
           icon="bx bx-cart"
@@ -39,7 +41,7 @@ const ProductCard = (props) => {
         >
           chọn mua
         </Button>
-      </div> */}
+      </div>
     </div>
   );
 };
@@ -49,7 +51,7 @@ ProductCard.propTypes = {
   // img02: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired,
   price: PropTypes.number.isRequired,
-  // slug: PropTypes.string.isRequired,
+  slug: PropTypes.string.isRequired,
 };
 
 export default ProductCard;

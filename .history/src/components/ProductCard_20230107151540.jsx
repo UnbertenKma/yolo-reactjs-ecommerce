@@ -3,12 +3,14 @@ import React from "react";
 
 import { Link } from "react-router-dom";
 
-// import { useDispatch } from "react-redux";
+import { useDispatch } from "react-redux";
+
+
 
 import numberWithCommas from "../utils/numberWithCommas";
 
 const ProductCard = (props) => {
-  // const dispatch = useDispatch();
+  const dispatch = useDispatch();
 
   return (
     <div className="product-card">
@@ -45,11 +47,11 @@ const ProductCard = (props) => {
 };
 
 ProductCard.propTypes = {
-  // img01: PropTypes.string.isRequired,
+  img01: PropTypes.string.isRequired,
   // img02: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired,
   price: PropTypes.number.isRequired,
-  // slug: PropTypes.string.isRequired,
+  slug: PropTypes.string.isRequired,
 };
 
 export default ProductCard;

@@ -24,15 +24,15 @@ const product_05_image_01 =
 const product_05_image_02 =
   require("../images/products/product-05 (2).jpg").default;
 
-// const product_06_image_01 =
-//   require("../images/products/simviettel.png").default;
-// const product_06_image_02 =
-//   require("../images/products/product-06 (2).jpg").default;
+const product_06_image_01 =
+  require("../images/products/simviettel.png").default;
+const product_06_image_02 =
+  require("../images/products/product-06 (2).jpg").default;
 
-// const product_07_image_01 =
-//   require("../images/products/simviettel.png").default;
-// const product_07_image_02 =
-//   require("../images/products/product-07 (2).jpg").default;
+const product_07_image_01 =
+  require("../images/products/simviettel.png").default;
+const product_07_image_02 =
+  require("../images/products/product-07 (2).jpg").default;
 
 const products = [
   {
